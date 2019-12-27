@@ -1,0 +1,40 @@
+.panel-wrapper {
+  background: purple;
+  width: 15rem;
+  height: 40px;
+  margin: auto;
+}
+.panel-heading {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.panel-body-show {
+  margin-top: 10px;
+  max-width: 100%;
+  opacity: 1;
+  margin: auto;
+  visibility: visible;
+  background: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: pointer;
+  transition: visibility 0.3s ease-in-out;
+}
+.panel-body-hide {
+  max-width: 0px;
+  opacity: 0;
+  visibility: none;
+}
+/* .card-wrapper:hover {
+    transition: height 0.4s ease-in-out; 
+}*/
+.panel-content {
+  margin-top: 20px;
+  background-color: pink;
+}
