@@ -7,11 +7,11 @@ export default class index extends Component {
         this.state = {
             parentName: "Pukhraj Purohit"
         }
+        this.showParent = this.showParent.bind(this)
     }
 
-    showParent() {
-        console.log(this.state.parentName)
-        alert(`hello ${this.state.parentName}`)
+    showParent(childName) {
+        alert(`hello ${this.state.parentName} from ${childName}`)
     }
 
     render() {

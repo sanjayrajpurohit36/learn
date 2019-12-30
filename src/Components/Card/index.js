@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import "./index.css";
 
 class index extends Component {
-    constructor(props) {
-        super(props)
-    }
-    
     render() {
         return (
             <div className="card-wrapper" style={{...this.props.cardStyle}}>
