@@ -19,6 +19,21 @@ class lifeCycleA extends Component {
         console.log("Lifecycle B componentDidMount")
     }
 
+    // mounting phase lifecycle method
+    shouldComponentUpdate(nextProps, nextState) { 
+        console.log("lifecycle B shouldComponentUpdate")
+        return true;
+    }
+    // mounting phase lifecycle method 
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log("lifecycle B getSnapshotBeforeUpdate")
+        return true;
+    }
+
+    componentDidUpdate() {
+        console.log("lifecycle B componentDidUpdate");
+    }
+
     render() {
         console.log("render")
         return (

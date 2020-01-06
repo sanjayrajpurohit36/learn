@@ -1,0 +1,77 @@
+//Gilroy fonts
+$Gilroy-font-name: 'Gilroy';
+$Gilroy_Url_Path: '/Users/innoventestech/consumer-frontend/src/assets/fonts/Gilroy/';
+// Thin : 100
+// // ThinItalic
+// UltraLight : 200
+// Light :300
+// // LightItalic
+// Regular: 400
+// // RegularItalic
+// Medium: 500
+// // MediumItalic
+
+// SemiBold:600
+// // SemiBoldItalic
+// Bold: 700
+// // BoldItalic
+// ExtraBold:800
+// // ExtraBoldItalic
+// Black: 900
+// // BlackItalic
+
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 100;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-Thin.otf') format('OpenType');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 200;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-UltraLight.otf') format('opentype');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 300;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 400;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 500;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 600;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-SemiBold.otf') format('opentype');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 700;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 800;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-ExtraBold.otf') format('opentype');
+}
+@font-face {
+	font-family: $Gilroy-font-name;
+	font-weight: 900;
+	font-display: swap;
+	src: url('~assets/fonts/Gilroy/Gilroy-Black.otf') format('opentype');
+}

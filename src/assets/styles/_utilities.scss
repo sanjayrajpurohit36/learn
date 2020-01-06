@@ -1,0 +1,457 @@
+.u-center-text {
+	text-align: center;
+}
+.u-display-inline-block {
+	display: inline-block;
+}
+.u-margin-bottom-0 {
+	margin-bottom: 0;
+}
+.u-margin-left-10 {
+	margin-left: 1rem;
+}
+.u-font-weight-bold {
+	font-weight: bold;
+}
+.u-margin-right-10 {
+	margin-right: 1rem;
+}
+.u-margin-bottom-10 {
+	margin-bottom: 1rem;
+}
+.u-position-absolute {
+	position: absolute;
+}
+.u-float-left {
+	float: left;
+}
+.u-float-right {
+	float: right;
+}
+.u-margin-top-10 {
+	margin-top: 1rem;
+}
+.u-margin-top-20 {
+	margin-top: 2rem;
+}
+.u-margin-top-40 {
+	margin-top: 4rem;
+}
+.u-margin-left-50 {
+	margin-left: 5rem;
+}
+.u-margin-top-60 {
+	margin-top: 6rem !important;
+}
+.u-margin-bottom-30 {
+	margin-bottom: 3rem;
+}
+.u-background-none {
+	background: none;
+}
+.u-margin-right-20 {
+	margin-right: 2rem;
+}
+.u-margin-right-30 {
+	margin-right: 3rem;
+}
+.u-vertical-align-middle {
+	vertical-align: middle;
+}
+.u-position-relative {
+	position: relative;
+}
+.u-opacity-0 {
+	opacity: 0;
+}
+.u-opacity-0-4 {
+	opacity: 0.4;
+}
+.u-display-flex {
+	display: flex;
+}
+.u-border-none {
+	border: none;
+}
+.u-margin-top-30 {
+	margin-top: 3rem;
+}
+.u-top-9 {
+	top: 9rem;
+}
+.u-top-17 {
+	top: 17rem;
+}
+.u-top-0 {
+	top: 0 !important ;
+}
+.u-cursor-pointer {
+	cursor: pointer;
+}
+.u-border-right-none {
+	border-right: none !important;
+}
+.u-display-none {
+	display: none;
+}
+.u-list-style-none {
+	list-style-type: none;
+}
+.u-margin-left-20 {
+	margin-left: 2rem;
+}
+.u-max-width-100-percent {
+	max-width: 100%;
+}
+.u-padding-zero {
+	padding: 0;
+}
+.u-height-100 {
+	height: 100%;
+}
+.u-padding-bottom-4r {
+	padding-bottom: 4rem;
+}
+
+//static page animation keyframe
+
+.embibe-section-1 {
+	// animation: textWithDelaySection1 4s normal ease-out;
+	// opacity: 1 !important;
+	animation: textWithDelaySection1 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.embibe-section-2 {
+	// animation: textWithDelaySection2 10s  normal ease-out;
+	// opacity: 1 !important;
+
+	animation: textWithDelaySection2 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.embibe-section-3 {
+	// animation: textWithDelaySection3 15s  normal ease-out;
+	// opacity: 1 !important;
+
+	animation: textWithDelaySection3 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.embibe-section-4 {
+	// animation: textWithDelaySection4 15s  normal ease-out;
+	// opacity: 1 !important;
+	animation: textWithDelaySection4 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.imageScale {
+	animation: imageScaling normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+@keyframes topTransition {
+	0% {
+		opacity: 0;
+		transform: translateY(120%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+.transitionToTop {
+	// -webkit-animation: topTransition 3000 normal ease-out;
+	// animation: topTransition 3000 normal ease-out;
+	// animation-duration: 1s;
+	// opacity: 1 !important;
+	-webkit-animation: topTransition normal ease-out;
+	animation: topTransition normal ease-out;
+	animation-duration: 1s;
+	opacity: 1 !important;
+}
+.cardTextdelay {
+	// animation: cardTextAppearWithDelay 1500ms normal ease-out;
+	// animation-duration:2s;
+	// animation-fill-mode: forwards;
+	animation: cardTextAppearWithDelay normal ease-out;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+.transitionFromLeft {
+	// animation: leftFloating 1000ms  normal ease-out;
+	// opacity: 1 !important;
+	animation: leftFloating normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.transitionToTopCard1 {
+	// animation: topTransitionCard1 4s  normal ease-out;
+	// opacity: 1 !important;
+	animation: topTransitionCard1 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.transitionToTopCard2 {
+	// animation: topTransitionCard2 5s  normal ease-out;
+	// opacity: 1 !important;
+	animation: topTransitionCard2 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.transitionToTopCard3 {
+	// animation: topTransitionCard3 6s  normal ease-out;
+	// opacity: 1 !important;
+	animation: topTransitionCard3 normal ease-out;
+	opacity: 1 !important;
+	animation-duration: 1s;
+}
+.textWithDelay {
+	opacity: 0;
+	animation-name: textAppearWithDelay;
+	animation-duration: 1s;
+	animation-delay: 0.3s;
+	animation-fill-mode: forwards;
+}
+@keyframes textWithDelaySection1 {
+	0% {
+		opacity: 0;
+		transform: translateY(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes textWithDelaySection2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		transform: translateY(20%);
+		animation-delay: 0.5s;
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes textWithDelaySection3 {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+		animation-delay: 1s;
+		transform: translateY(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes textWithDelaySection4 {
+	0% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+		animation-delay: 1s;
+		transform: translateY(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes imageScaling {
+	0% {
+		transform: translate(0%, 0%) scale3d(0.3, 0.3, 1);
+		opacity: 0;
+	}
+	20% {
+		transform: translate(0%, 0%) scale3d(0.3, 0.3, 1);
+		opacity: 0;
+	}
+	40% {
+		transform: translate(0%, 0%) scale3d(0.3, 0.3, 1);
+		opacity: 0;
+	}
+	50% {
+		transform: translate(0%, 0%) scale3d(1.2, 1.2, 1);
+		opacity: 100;
+	}
+	60% {
+		transform: translate(0%, 0%) scale3d(1.2, 1.2, 1);
+		opacity: 100;
+	}
+	80% {
+		transform: translate(0%, 0%) scale3d(1.2, 1.2, 1);
+		opacity: 100;
+	}
+	100% {
+		transform: translate(0%, 0%) scale3d(1, 1, 1);
+		opacity: 100;
+	}
+}
+@keyframes textAppearWithDelay {
+	30% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 1;
+		// animation-delay: 1s;
+	}
+	90% {
+		opacity: 1;
+		// animation-delay: 1s;
+	}
+	100% {
+		opacity: 1;
+		// animation-delay: 1s;
+	}
+}
+@keyframes leftFloating {
+	0% {
+		opacity: 0;
+		transform: translateX(-20%);
+	}
+	100% {
+		opacity: 1;
+		// top:0;
+		transform: translateX(0%);
+	}
+}
+@keyframes cardTextAppearWithDelay {
+	0% {
+		opacity: 0;
+	}
+	// 95% {
+	//     opacity:1;
+	// }
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes topTransitionCard1 {
+	0% {
+		opacity: 0;
+		transform: translateY(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes topTransitionCard2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		transform: translateY(20%);
+		animation-delay: 0.5s;
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes topTransitionCard3 {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+		animation-delay: 1s;
+		transform: translateY(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes bannerHeadingDisplay {
+	30% {
+		opacity: 0;
+		top: 7rem;
+	}
+	80% {
+		opacity: 1;
+		top: 7rem;
+		// animation-delay: 1s;
+	}
+	90% {
+		opacity: 1;
+		top: 0;
+		// animation-delay: 1s;
+	}
+	100% {
+		opacity: 1;
+		top: 0;
+		// animation-delay: 1s;
+	}
+}
+@keyframes bannerSubHeadingDisplay {
+	0% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes Img1FromLeft {
+	0% {
+		opacity: 1;
+		transform: translate(0%, -84%);
+		left: 0%;
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-5%, -84%);
+		left: 5%;
+	}
+}
+@keyframes Img2FromLeft {
+	0% {
+		opacity: 1;
+		transform: translate(0%, -90%);
+		left: 0%;
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-12%, -84%);
+		left: 12%;
+	}
+}
+@keyframes Img1FromRight {
+	0% {
+		opacity: 1;
+		transform: translate(0%, -57%);
+		right: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translate(8%, -57%);
+		right: 8%;
+	}
+}
+@keyframes Img4FromRight {
+	0% {
+		opacity: 1;
+		right: 0%;
+		transform: translate(0%, -66%);
+	}
+	100% {
+		opacity: 1;
+		right: 16%;
+		transform: translate(16%, -66%);
+	}
+}

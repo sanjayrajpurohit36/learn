@@ -1,0 +1,85 @@
+@import 'src/assets/styles/variables.scss';
+@import 'src/assets/styles/utilities.scss';
+
+.divam-wrapper {
+	overflow: auto;
+	height: 100%;
+
+	* {
+		transition: none;
+	}
+
+	:focus {
+		outline: none;
+	}
+
+	.ellipsis-text {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	.btn {
+		cursor: pointer;
+		pointer-events: auto;
+
+		&,
+		&:link,
+		&:visited {
+			padding: 6px 12px;
+			margin-bottom: 0;
+			line-height: 1.42857143;
+			display: inline-block;
+			border-radius: 4px;
+			transition: all 0.2s;
+			position: relative;
+			font-size: $default-font-size;
+			cursor: pointer;
+			pointer-events: auto;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-ms-touch-action: manipulation;
+			touch-action: manipulation;
+			background-image: none;
+			border: 1px solid transparent;
+		}
+
+		&:hover {
+			transform: translateY(-1px);
+			box-shadow: 0 0.2rem 0.2rem rgba($color-black, 0.2);
+
+			&::after {
+				transform: scaleX(1.1) scaleY(1.2);
+				opacity: 0;
+			}
+		}
+
+		&:active,
+		&:focus {
+			outline: none;
+			transform: translateY(0px);
+			box-shadow: none;
+		}
+
+		outline: none;
+	}
+
+	.MathJax_Preview {
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		background-image: url('https://anishmprasad.com/images/loader.gif');
+		background-repeat: no-repeat;
+
+		* {
+			display: none !important;
+		}
+	}
+
+	.MathJax {
+		.math {
+			display: -webkit-inline-box !important;
+		}
+	}
+}

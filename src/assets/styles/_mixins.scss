@@ -1,0 +1,89 @@
+@mixin clearfix {
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin absCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@mixin verticalCenter {
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+@mixin emp-default-button {
+	color: $color-night-rider;
+	background-color: $color-white;
+	border-color: $color-grey-light-9;
+	// @include btn;
+}
+@mixin emp-success-button {
+	color: $color-white;
+	background-color: $color-success-1;
+	border-color: $color-success-2;
+	// @include btn;
+}
+
+@mixin button-font {
+	object-fit: contain;
+	font-family: 'Roboto';
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+}
+@mixin report-modal-buttons {
+	border: 0.2rem solid $color-white;
+	outline: none;
+	border-radius: 2.5rem;
+	font-family: 'Roboto';
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.54;
+	letter-spacing: 0.03rem;
+	width: 30%;
+	height: 3.27rem;
+	text-align: center;
+}
+
+//animation common mixins
+
+@mixin animationForBannerLeftImg1 {
+	animation-name: Img1FromLeft;
+	animation-duration: 0.4s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@mixin animationForBannerLeftImg2 {
+	animation-name: Img2FromLeft;
+	animation-duration: 0.4s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@mixin animationForBannerRightImg1 {
+	animation-name: Img1FromRight;
+	animation-duration: 0.4s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@mixin animationForBannerRightImg2 {
+	animation-name: Img4FromRight;
+	animation-duration: 0.4s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}

@@ -1,0 +1,94 @@
+//Roboto fonts
+$Roboto-font-name: 'Roboto';
+$Roboto_Url_Path: 'https://assets.embibe.com/staging/fonts/Roboto/';
+
+@font-face {
+	font-family: $Roboto-font-name;
+	font-weight: 300;
+	font-display: swap;
+	src: url($Roboto_Url_Path+'Roboto-Light.woff2') format('woff2'),
+		url($Roboto_Url_Path+'Roboto-Light.woff') format('woff'),
+		url($Roboto_Url_Path+'Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: $Roboto-font-name;
+	font-weight: 400;
+	font-display: swap;
+	src: url($Roboto_Url_Path+'Roboto-Regular.woff2') format('woff2'),
+		url($Roboto_Url_Path+'Roboto-Regular.woff') format('woff'),
+		url($Roboto_Url_Path+'Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: $Roboto-font-name;
+	font-weight: 500;
+	font-display: swap;
+	src: url($Roboto_Url_Path+'Roboto-Medium.woff2') format('woff2'),
+		url($Roboto_Url_Path+'Roboto-Medium.woff') format('woff'),
+		url($Roboto_Url_Path+'Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: $Roboto-font-name;
+	font-weight: 600;
+	font-display: swap;
+	src: url($Roboto_Url_Path+'Roboto-Bold.woff2') format('woff2'),
+		url($Roboto_Url_Path+'Roboto-Bold.woff') format('woff'),
+		url($Roboto_Url_Path+'Roboto-Bold.ttf') format('truetype');
+}
+
+//National fonts
+$National_Semibold: 'National-Semibold';
+$National_Book: 'National-Book';
+$National_Thin: 'National-Thin';
+$National_Regular: 'National-Regular';
+$National: 'National-Book';
+$National-font-name: 'National';
+
+$National_Url_Path: 'https://assets.embibe.com/staging/fonts/National/';
+
+@font-face {
+	font-family: $National_Book;
+	font-display: swap;
+	src: url($National_Url_Path+'NationalWeb-Book.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: $National_Semibold;
+	font-display: swap;
+	src: url($National_Url_Path+'National-Semibold.otf') format('truetype');
+}
+
+@font-face {
+	font-family: $National_Thin;
+	font-display: swap;
+	src: url($National_Url_Path+'National-Thin.otf') format('opentype');
+}
+@font-face {
+	font-family: $National_Regular;
+	font-display: swap;
+	src: url($National_Url_Path+'NationalWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: $National-font-name;
+	font-display: swap;
+	src: url($National_Url_Path+'NationalWeb-Thin2.otf') format('opentype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: $National-font-name;
+	font-display: swap;
+	src: url($National_Url_Path+'NationalWeb-Book.ttf') format('truetype');
+	font-weight: 400;
+}
+@font-face {
+	font-family: $National-font-name;
+	font-display: swap;
+	src: url($National_Url_Path+'NationalWeb-Regular.ttf') format('truetype');
+	font-weight: 500;
+}
+@font-face {
+	font-family: $National-font-name;
+	font-display: swap;
+	src: url($National_Url_Path+'National-Semibold.otf') format('truetype');
+	font-weight: 600;
+}
