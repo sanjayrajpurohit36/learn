@@ -1,0 +1,30 @@
+.student-search {
+	width: 50%;
+	font-family: Roboto;
+	font-size: 18px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.btn-wrapper {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.actn-btns {
+	width: 100px;
+	margin-right: 10px;
+	border-radius: 4px;
+	font-family: Roboto;
+	font-size: 20px;
+	outline: none;
+	cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+	.student-search {
+		width: 40%;
+		font-size: 14px;
+	}
+	.actn-btns {
+		font-size: 14px;
+	}
+}

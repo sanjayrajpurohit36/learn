@@ -10,6 +10,7 @@ import Button from "./Components/Button/index";
 import ParentComponent from "./Components/ParentComponent/index";
 import PCard from "./Components/PCard";
 import ParentCard from "./Components/ParentCard";
+import SideBar from "./Components/SideBar";
 
 function App() {
   const userInfo = {
@@ -29,12 +30,13 @@ function App() {
     //   <Panel info={userInfo}></Panel>
     //   <Parent> </Parent>
     //   <ShowData></ShowData>
-    //   <Form></Form>
     //   <LifeCycle></LifeCycle>
-    //   <Button name="Click Me" btnStyles={btnStyle}></Button> */}
-      <ParentComponent> </ParentComponent>
+  //   <Button name="Click Me" btnStyles={btnStyle}></Button> */}
+      {/* <ParentComponent> </ParentComponent> */}
       {/* <PCard> </PCard> */}
       {/* <ParentCard></ParentCard> */}
+      {/* <SideBar marginLeft="0px"> </SideBar> */}
+      <Form></Form>
     </div>
   );
 }
